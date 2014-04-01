@@ -1,4 +1,4 @@
-theblessedleaf
+TheBlessedLeaf.com
 ==============
 
-The Blessed Leaf Auto Club
+The GitHub Pages site for TheBlessedLeaf.com
