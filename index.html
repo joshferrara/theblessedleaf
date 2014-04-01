@@ -19,10 +19,21 @@
     </style>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=490662687636824";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <img src="webview.png" width="792" height="1224">
     <div class="container">
       <h1>April Fools!</h1>
       <p>Made with love by <a href="mailto:nic.rodriquez@gatewaystaff.com">Nic</a> and <a href="mailto:josh.ferrara@gatewaystaff.com">Josh.</a></p>
+      <hr>
+      <div class="fb-comments" data-href="http://theblessedleaf.com" data-numposts="5" data-colorscheme="light"></div>
     </div>
 
 <script type="text/javascript">
